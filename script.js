@@ -5,7 +5,7 @@ function numeroAPalabrasCompleto(num) {
   const unidades = ['','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve'];
   const decenas = ['','diez','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];
   const especiales = ['diez','once','doce','trece','catorce','quince','dieciséis','diecisiete','dieciocho','diecinueve'];
-  const centenas = ['','cien','doscientos','trescientos','cuatrocientos','quinientos','seiscientos','setecientos','ochocientos','novecientos'];
+  const centenas = ['','ciento','doscientos','trescientos','cuatrocientos','quinientos','seiscientos','setecientos','ochocientos','novecientos'];
 
   function numeroMenorDeMil(n) {
     let palabra = '';
