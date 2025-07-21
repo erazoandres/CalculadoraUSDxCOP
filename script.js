@@ -100,7 +100,8 @@ async function obtenerTasa() {
 obtenerTasa();
 
 document.getElementById('convertir').addEventListener('click', function() {
-  const usd = parseFloat(document.getElementById('usd').value);
+  const usdInput = document.getElementById('usd').value.replace(',', '.');
+  const usd = parseFloat(usdInput);
   const resultadoDiv = document.getElementById('resultado');
   const resultadoPalabrasDiv = document.getElementById('resultado-palabras');
 
